@@ -7,7 +7,7 @@
         "device": "*",
         "tilemaps": "*",
         "images": "*",
-        "settings": "*"
+        "settings-blocks": "*"
     },
     "files": [
         "better-settings.ts",
