@@ -1,13 +1,13 @@
 {
     "name": "better-settings",
-    "version": "1.0.0",
-    "description": "Extends the official Settings Blocks with tilemap, string[] and boolean[] support plus convenience helpers.",
+    "version": "0.0.1",
+    "description": "Extra Settings blocks: tilemap · string[] · boolean[] · helpers · diagnostics.",
     "license": "MIT",
     "dependencies": {
         "device": "*",
         "tilemaps": "*",
         "images": "*",
-        "settings": "*"
+        "settings": "github:microsoft/pxt-settings-blocks"
     },
     "files": [
         "better-settings.ts",
@@ -21,7 +21,6 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj",
     "supports": [
         "arcade"
     ]
