@@ -1,10 +1,15 @@
-# Better Settings — MakeCode Arcade extension
+# ***Attribution***
+
+Portions of this repository were drafted with the assistance of **ChatGPT (o3 reasoning model), OpenAI**.  
+All AI-generated code and text were reviewed, tested, and modified by the author.
+
+## Better Settings — MakeCode Arcade extension
 
 Open the live page: **<https://suitablymysterious.github.io/better-settings/>**
 
 ---
 
-## Use as an extension
+### Use as an extension
 
 1. Open <https://arcade.makecode.com/>  
 2. Click **New Project**  
@@ -15,7 +20,7 @@ That adds the extra Settings blocks (tilemap, string array, boolean array, helpe
 
 ---
 
-## Edit this project
+### Edit this project
 
 If you want to tweak or extend the blocks:
 
@@ -26,7 +31,7 @@ If you want to tweak or extend the blocks:
 
 ---
 
-#### Metadata
+##### Metadata
 
 * **Target:** PXT / Arcade  
 
