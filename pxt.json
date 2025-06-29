@@ -1,16 +1,16 @@
 {
     "name": "better-settings",
-    "version": "0.0.0",
-    "description": "",
+    "description": "Extends the official Settings Blocks with tilemap, string[] and boolean[] support plus convenience helpers.",
+    "license": "MIT",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "tilemaps": "*",
+        "images": "*",
+        "settings": "*"
     },
     "files": [
-        "README.md",
-        "better-settings.ts"
-    ],
-    "testFiles": [
-        "test.ts"
+        "better-settings.ts",
+        "README.md"
     ],
     "public": true,
     "targetVersions": {
@@ -20,5 +20,7 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "supports": [
+        "arcade"
+    ]
 }
