@@ -27,7 +27,7 @@ If you want to tweak or extend the blocks:
 1. Open <https://arcade.makecode.com/>  
 2. Click **Import → Import URL**  
 3. Paste **https://github.com/suitablymysterious/better-settings** and press **Import**  
-4. Switch to the **JavaScript** tab and start hacking!
+4. Switch to the **JavaScript** tab and start coding!
 
 ---
 
