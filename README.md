@@ -1,24 +1,39 @@
+# Better Settings — MakeCode Arcade extension
 
-> Open this page at [https://suitablymysterious.github.io/better-settings/](https://suitablymysterious.github.io/better-settings/)
+Open the live page: **<https://suitablymysterious.github.io/better-settings/>**
 
-## Use as Extension
+---
 
-This repository can be added as an **extension** in MakeCode.
+## Use as an extension
 
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/suitablymysterious/better-settings** and import
+1. Open <https://arcade.makecode.com/>  
+2. Click **New Project**  
+3. In the gear-wheel menu choose **Extensions**  
+4. Paste **https://github.com/suitablymysterious/better-settings** into the search box and click **Import**
+
+That adds the extra Settings blocks (tilemap, string array, boolean array, helpers, diagnostics) to your project.
+
+---
 
 ## Edit this project
 
-To edit this repository in MakeCode.
+If you want to tweak or extend the blocks:
 
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/suitablymysterious/better-settings** and click import
+1. Open <https://arcade.makecode.com/>  
+2. Click **Import → Import URL**  
+3. Paste **https://github.com/suitablymysterious/better-settings** and press **Import**  
+4. Switch to the **JavaScript** tab and start hacking!
 
-#### Metadata (used for search, rendering)
+---
 
-* for PXT/arcade
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+#### Metadata
+
+* **Target:** PXT / Arcade  
+
+```html
+<script src="https://makecode.com/gh-pages-embed.js"></script>
+<script>
+  makeCodeRender("https://arcade.makecode.com/",
+                 "suitablymysterious/better-settings");
+</script>
+```

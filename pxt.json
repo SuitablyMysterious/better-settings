@@ -20,6 +20,7 @@
     "supportedTargets": [
         "arcade"
     ],
+    "preferredEditor": "tsprj",
     "supports": [
         "arcade"
     ]
